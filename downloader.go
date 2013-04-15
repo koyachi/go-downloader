@@ -45,7 +45,7 @@ func (d *Downloader) updateSizeByHead() error {
 	return nil
 }
 
-// start download and save as file.
+// start downloading and save response.Body as file.
 func (d *Downloader) Start() error {
 	d.updateSizeByHead()
 
